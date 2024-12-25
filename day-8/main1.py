@@ -2,9 +2,6 @@ import itertools
 import operator
 
 grid = []
-width = 0
-height = 0
-
 with open("input") as input:
     for line in input:
         grid.append([character for character in line.rstrip()])
